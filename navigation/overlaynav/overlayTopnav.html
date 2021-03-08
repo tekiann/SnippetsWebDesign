@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="overlayTopnav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Overlay</title>
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="#" class="active">Brand</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+        <a href="javascript:void(0);"class="icon" onclick="openNav()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0);"class="closebtn" onclick="closeNav()">
+            <i class="fa fa-close"></i>
+        </a>
+        <div class="overlay-content">
+            
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+        
+    </div>
+    
+    <script src="overlayTopnav.js"></script>
+</body>
+</html>
